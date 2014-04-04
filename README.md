@@ -3,7 +3,6 @@ CAN-BUS-Sniffer
 
 Martin's CAN-BUS Sniffer Tool V1.0
 
-Martin's CAN-BUS Sniffer Tool V1.0
 
 Purpose of the "Martin's CAN-BUS Sniffer Tool"
 
