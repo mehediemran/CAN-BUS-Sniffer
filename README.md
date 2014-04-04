@@ -43,7 +43,7 @@ This will not harm it , if you managed to swop the CAN-H & CAN-L pos/neg wires, 
 Although its not reccomended.
 
 WHAT EVER YOU DO! DO NOT ACCIDENTALLY CONNECT 12V Vehicle Power or power from the LAPTOP into THE CAN BUS!
-The resaults are unknown but it cant be good.
+The results are unknown but it cant be good.
 
 
 
