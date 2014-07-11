@@ -12,7 +12,7 @@ char str[20];
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(38400);
 
 START_INIT:
 
@@ -36,12 +36,12 @@ void loop()
     {
         CAN.readMsgBuf(&len, buf); 
         canId = CAN.getCanId();
-        
-        Serial.print(canId);Serial.print(",");
+        Serial.print("<");Serial.print(canId);Serial.print(",");
         for(int i = 0; i<len; i++)
         {
             Serial.print(buf[i]);Serial.print(",");
         }
+        Serial.print(">");
         Serial.println();
     }
 }
